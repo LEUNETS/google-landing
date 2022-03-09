@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #202124;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px
+}
+
+.header p {
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    background-size: contain;
+    justify-content: center;
+}
+
+.logo img {
+    width: 272px;
+}
+
+
+.search-container {
+    margin: auto;
+    margin-left: 270px;
+    padding: 15px; 
+}
+input:hover {
+    background: #3d3d3d;
+    -webkit-transition: background-color 0.2s 0.1s ease;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+#mySearch {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    width: 550px;
+    height: 30px;
+    padding: 4px;
+    border-style: groove;
+    border-radius: 25px
+}
+.putton-1 {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px 4px;
+    padding: 10px 4px;
+    background-color: #303134;
+    margin-left: 230px;
+    width: 119px;
+    height: 17px;
+    border-radius: 5px;
+}
+
+.putton-2 {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px 4px;
+    padding: 10px 1px;
+    background-color: #303134;
+    margin-left: 370px;
+    margin-top: -47px;
+    width: 119px;
+    height: 17px;
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+footer {
+    color: rgb(161, 161, 161);
+    width: 1310px;
+    height: 250px;
+    background-color: rgb(31, 30, 30);
+    position: fixed;
+    padding: 0px;
+    margin: 150px 10px 300px 0px;
+}
+
+.line {
+    border-bottom: 1px solid rgb(58, 58, 58);
+    border-left: 1950px;
+    border-right: 1950px;
+    border-top: 0.1px;
+    margin: 7px 0px -19px 1px;
+    padding: 7px 10px 2px 15px;
+}
+
+/*.line p {
+    
+}*/
+
+.WE {
+    margin: 17px;
+    padding: 10px 0px 15px 450px;
+    width: 599px;
+    height: 20px;
+}
+
+.leftstr {
+    float: left;
+    margin: -19px;
+    padding: 60px 0px 10px 35px;
+}
+
+.leftstr p {
+    word-spacing: 5px;
+}
+
+.rightstr {
+    float: right;
+    margin: 20px;
+    padding: 20px 25px 10px 10px;
+}
+
+.rightstr p {
+    /*text-decoration: overline;*/
+    word-spacing: 5px;
+}
