@@ -7,16 +7,27 @@
 body {
     background-color: #202124;
 }
-
+.icon img {
+    width: 80px;
+    margin: 10px;
+    margin-left: 235px;
+    padding: 10px;
+}
 .header {
-    color: white;
     display: flex;
-    justify-content: flex-end;
-    font-size: 15px
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 950px;
 }
 
 .header p {
-    padding: 10px;
+    width: 100px;
+    margin: -50px;
+    margin-left: 45px;
+    padding: 1px;
+    text-indent: 25px;
+    font-size: 13px
 }
 
 .logo {
@@ -34,6 +45,14 @@ body {
     margin: auto;
     margin-left: 270px;
     padding: 15px; 
+}
+.search-container img {
+    height: 30px;
+    margin: 20px;
+    margin-left: 90px;
+    margin-top:-40px;
+    padding: 1px;
+
 }
 input:hover {
     background: #3d3d3d;
